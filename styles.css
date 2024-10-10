@@ -1,0 +1,64 @@
+body{
+    color: white;
+    background: black;
+    margin: 20px;
+    font-family: "Playwrite DE Grund", cursive;
+    margin-bottom: 100px;
+
+}
+
+header{
+    border-bottom: solid 3px rgb(63, 4, 63);
+    padding: 10px;
+    font-size: 32px;
+    color: rgb(172, 85, 172);
+}
+.chamada { 
+    background: rgb(75,54,33);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+.categoria-aberturas {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+}
+
+.aberturas {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-aberturas img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-aberturas img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
+}
+
+.aberturas h2{
+    color:rgb(212, 121, 212); 
+
+}
+
